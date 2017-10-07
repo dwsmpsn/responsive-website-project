@@ -2,9 +2,9 @@
   color: green;
 }*/
 
-* {
+/** {
   border: 1px solid red !important;
-}
+}*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -13,11 +13,11 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 300px) {
+/*@media only screen and (max-width: 300px) {
   p {
     background-color: blue;
   }
-}
+}*/
 
 .row {
   width: 100%;
@@ -72,4 +72,138 @@
 .col-12 {
   width: 100%;
 }
+
+/*
+  non-framework edits below, document specific
+*/
+
+/* images */
+
+#icon {
+  max-width: 100px;
+  max-height: auto;
+  margin: 20px 0px 5px 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.proj {
+  max-width: 285px;
+}
+
+/* miscellaneous */
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #d7cec7;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #565656;
+}
+
+.heading {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: right;
+  vertical-align: middle;
+  padding: 5px;
+  font-size: 48px;
+  color: #76323f;
+  margin-top: 5px;
+}
+
+.subheading {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: right;
+  vertical-align: middle;
+  padding: 5px;
+  font-size: 22px;
+  color: #565656;
+  margin-top: -35px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.linebreak {
+  background-color: #565656;
+  height: 5px;
+  margin: 5px 0px 20px 0px;
+}
+
+.sectionTitles {
+  color: #76323f;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.projTitle {
+  color: #565656;
+}
+
+#projects {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 900px) {
+  #proj1 {
+    width: 100%;
+  }
+
+  #proj2 {
+    width: 50%;
+  }
+
+  #proj3 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #icon {
+    display: none;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .subheading {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #proj2 {
+    width: 100%; 
+  }
+
+  #proj3 {
+    width: 100%;
+  }
+}
+
+
+
+
 
