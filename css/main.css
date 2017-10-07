@@ -140,6 +140,7 @@ p {
 .sectionTitles {
   color: #76323f;
   font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
   font-size: 24px;
   padding: 10px;
 }
